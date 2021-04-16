@@ -1,0 +1,1 @@
+// faqat js uchun
