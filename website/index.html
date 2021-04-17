@@ -186,6 +186,120 @@
     <!-- end organization -->
 
     <!-- start footer -->
+    <section class="footer">
+      <div class="footer-divs">
+        <h1 class="footer-title">Programers</h1>
+        <p class="prog_paragraf">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+          saepe voluptate mollitia eum nisi provident nobis perferendis a quos
+          asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsa.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsa.
+        </p>
+      </div>
+      <div class="footer-divs">
+        <h1 class="footer-title">Latest News</h1>
+        <div class="dropdown footer-dropdown1">
+          <h2><i class="fas fa-angle-right"></i> ACCORDION HEADING TEXT ITEM # 1</h2><br>
+          <hr color="#fff"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            assumenda soluta deserunt cumque quaerat sint iste placeat nemo
+            praesentium recusandae.
+          </p>
+        </div>
+        <div class="dropdown footer-dropdown2">
+          <h2 class="footer-title"><i class="fas fa-angle-right"></i>ACCORDION HEADING TEXT ITEM # 2</h2><br>
+          <hr color="#fff"  />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            assumenda soluta deserunt cumque quaerat sint iste placeat nemo
+            praesentium recusandae.
+          </p>
+        </div>
+        <div class="dropdown footer-dropdown3">
+          <h2 class="footer-title"><i class="fas fa-angle-right"></i>ACCORDION HEADING TEXT ITEM # 3</h2><br>
+          <hr color="#fff"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            assumenda soluta deserunt cumque quaerat sint iste placeat nemo
+            praesentium recusandae.
+          </p>
+        </div>
+        <div class="dropdown footer-dropdown4">
+          <h2 class="footer-title"><i class="fas fa-angle-right"></i>ACCORDION HEADING TEXT ITEM # 4</h2><br>
+          <hr color="#fff"/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            assumenda soluta deserunt cumque quaerat sint iste placeat nemo
+            praesentium recusandae.
+          </p>
+        </div>
+      </div>
+      <div class="footer-divs">
+        <h1>
+          <i class="far fa-clock" style="margin: 0 4px"></i>Office timings
+        </h1>
+        <hr color="#fff" width="90%" />
+        <div class="timing">
+          <div class="timing-box">
+            <h3>Monday - Friday:</h3>
+            <span>9am-3pm</span>
+          </div>
+          <div class="timing-box">
+            <h3>Saturday</h3>
+            <span>9am-1pm</span>
+          </div>
+          <div class="timing-box">
+            <h3>Sunday</h3>
+            <span>Holiday</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-bottom">
+      <p>&copy Bootstrap Tempelete 2021 All right reserved. Tempelete By <a href="https://codemy.uz" target="_blank">Codemy learner</a></p>
+      <div class="footer-links">
+        <i class="fab fa-facebook-f footer-icon"></i>
+        <i class="fab fa-twitter footer-icon"></i>
+        <i class="fab fa-linkedin-in footer-icon"></i>
+        <i class="fab fa-pinterest-square footer-icon"></i>
+        <i class="fab fa-google-plus-g footer-icon"></i>
+      </div>
+    </section>
+    <script>
+      let dropdown1 = document.querySelector(".footer-dropdown1"),
+      dropdown2 = document.querySelector(".footer-dropdown2"),
+      dropdown3 = document.querySelector(".footer-dropdown3"),
+      dropdown4 = document.querySelector(".footer-dropdown4")
+      dropdown1.addEventListener("click", () => {
+        dropdown1.classList.toggle("active");
+        dropdown2.classList.remove("active");
+        dropdown3.classList.remove("active");
+        dropdown4.classList.remove("active");
+      });
+      dropdown2.addEventListener("click", () => {
+        dropdown2.classList.toggle("active");
+        dropdown1.classList.remove("active");
+        dropdown3.classList.remove("active");
+        dropdown4.classList.remove("active");
+      });
+      dropdown3.addEventListener("click", () => {
+        dropdown3.classList.toggle("active");
+        dropdown2.classList.remove("active");
+        dropdown1.classList.remove("active");
+        dropdown4.classList.remove("active");
+      });
+      dropdown4.addEventListener("click", () => {
+        dropdown4.classList.toggle("active");
+        dropdown2.classList.remove("active");
+        dropdown3.classList.remove("active");
+        dropdown1.classList.remove("active");
+      });
+    </script>
     <!-- end footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
